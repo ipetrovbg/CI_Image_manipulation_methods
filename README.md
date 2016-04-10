@@ -9,5 +9,5 @@ must initialize image library <strong>image_lib</strong><br />
 <code>$this->crop($img_full_path, $img_file_name, $width, $height, $prefix, $delimiter);</code>
 <h5>for resizing:</h5>
 <code>$this->resize($this->upload->data(), $height, $prefix, $delimiter);</code>
-<h6>It's important to set as first param of method to be data obj of current upload</h6>
+<i>It's important to set as first param of method to be data obj of current upload</i>
 </div>
